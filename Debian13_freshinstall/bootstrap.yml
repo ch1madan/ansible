@@ -123,8 +123,8 @@
           HISTSIZE=7777
           HISTFILESIZE=9000
 
-	export EDITOR=vim
-	export VISUAL=vim
+         export EDITOR=vim
+         export VISUAL=vim
 
           if [ -x /usr/bin/dircolors ]; then
               test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
